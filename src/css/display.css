@@ -1,0 +1,38 @@
+
+.task-item{
+  color:white;
+  display: flex; /* Flexbox 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: space-between; /* 양쪽 끝으로 배치 */
+  padding: 10px; /* 패딩 추가 */
+  border-bottom: 1px solid #ccc; /* 구분선 추가 */
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  gap:10px;
+}
+
+.list-greeting{
+  margin-top:0;
+  margin-bottom: 20px;
+}
+
+.task-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn{
+  cursor: pointer;
+  background-image: url(./img/delete.png);
+  width: 30px;
+  background-size: cover;
+  border:none;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding:15px;
+  filter: invert(100%);
+}
+
+.accouncement{
+  color:white;
+}
