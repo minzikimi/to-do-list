@@ -1,4 +1,4 @@
-# 🚀 My Chrome App
+# 🚀 My Chrome App (TO DO LIST)
 
 - A customizable Chrome app that combines practical and fun features,
 - It generates random background images for you,
