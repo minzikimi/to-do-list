@@ -87,7 +87,7 @@ function addTaskToList(event) {
 //   });
 // }
 
-export function displayTasks(tasksFromLocalStorage) {
+function displayTasks(tasksFromLocalStorage) {
   const taskList = document.querySelector("[data-lists]");
   
   if (!taskList) {
